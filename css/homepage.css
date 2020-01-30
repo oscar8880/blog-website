@@ -5,6 +5,12 @@ button {
   border-radius: 8px;
   color: white;
   background-color: #637081;
+  cursor: pointer;
+}
+
+button:hover {
+  border:none;
+  box-shadow: 0px 0px 4px #637081;
 }
 
 .container{
@@ -76,24 +82,41 @@ button {
 }
 
 .sidebar a{
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: none;
-  color: black;
+  opacity: 0.7;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 
 .sidebar a:hover{
   text-decoration: underline;
 }
 
-.sidebar img{
+.sidebar .profile-image{
   width: 150px;
   height: 150px;
   margin: 40px 0 20px 0;
   border-radius: 50%;
 }
 
+.sidebar .icon{
+  margin: 16px auto;
+  width: 20px;
+  height: 20px;
+  display: block;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 .subscribe-button {
-  margin: 20px 0;
+  height: 26px;
+  width: 100px;
+  padding-left: 50px;
+  padding: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  border-radius: 0 0 0 0;
 }
 
 @media (min-width: 700px) {
