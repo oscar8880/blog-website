@@ -10,12 +10,12 @@ button {
 .container{
   height: 100%;
   display: grid;
-  grid: 1fr 40px / 300px 1fr;
+  grid: 1fr 40px / 1fr;
 }
 
 .content{
-  grid-column: 2/3;
-  grid-row: 1/7;
+  grid-column: 1/2;
+  grid-row: 2/7;
   display:flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -47,7 +47,7 @@ button {
 
 .footer{
   height: 100%;
-  grid-column: 2/3;
+  grid-column: 1/2;
   grid-row: 7/8;
   color: white;
   font-weight: 300;
@@ -56,11 +56,10 @@ button {
 }
 
 .sidebar{
-  height: 100%;
-  width: 300px;
-  position:fixed;
+  height: auto;
+  width: 100%;
   grid-column: 1/2;
-  grid-row: 1/8;
+  grid-row: 1/2;
   background-color: #F2F3F7;
   text-align: center;
 }
@@ -95,4 +94,41 @@ button {
 
 .subscribe-button {
   margin: 20px 0;
+}
+
+@media (min-width: 700px) {
+  .container{
+    height: 100%;
+    display: grid;
+    grid: 1fr 40px / 300px 1fr;
+  }
+  
+  .content{
+    grid-column: 2/3;
+    grid-row: 1/7;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .footer{
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 7/8;
+    color: white;
+    font-weight: 300;
+    background-color: #637081;
+    text-align: center;
+  }
+  
+  .sidebar{
+    height: 100%;
+    width: 300px;
+    position:fixed;
+    grid-column: 1/2;
+    grid-row: 1/8;
+    background-color: #F2F3F7;
+    text-align: center;
+  }
 }
