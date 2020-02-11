@@ -2,9 +2,114 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <link type="text/css" rel="stylesheet" href="../css/main.css">
     <title>My Blog Site</title>
   </head>
   <body>
-    <p>Design system page will go here</p>
+    <h1 class="coloured-background">Design System</h1>
+    <div class="design-container">
+        <div class="design-navbar">
+            <div class="design-nav-item">
+              <p>Foundations</p>
+              <ol>
+                <li>
+                  <a href="#typography">Typography</a>
+                </li>
+                <li>
+                    <a href="#colours">Colours</a>
+                </li>
+              </ol>
+            </div>
+            <div class="design-nav-item">
+              <p>Components</p>
+              <ol>
+                <li>
+                  <a href="#buttons">Buttons</a>
+                </li>
+                <li>
+                  <a href="#avatars">Avatars</a>
+                </li>
+                <li>
+                  <a href="#cards">Cards</a>
+                </li>
+              </ol>
+            </div>
+            <div class="design-nav-item">
+                <p>Images</p>
+                <ol>
+                  <li>
+                    <a href="#icons">Icons</a>
+                  </li>
+                </ol>
+              </div>
+          </div>
+          <div class="design-content">
+            <h1 class="coloured-background">Foundations</h1>
+            <a name="typography"></a>
+            <h2>Typography</h2>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            <p>The base type is 16px over lineheight of 25px</p>
+            <a id="demo-a">Anchor</a>
+            <p><em>Emphasis</em></p>
+            <p><strong>Strong</strong></p>
+            <p><small>Small</small></p>
+            <p><u>Underline</u></p>
+            <p class="light">Light</p>
+            <h2>Colours</h2>
+            <a name="colours"></a>
+            <div class="colour-circle" id="colour1">
+                #333333
+              </div>
+            <div class="colour-circle" id="colour2">
+                #637081
+            </div>
+            <div class="colour-circle" id="colour3">
+                #F2F3F7
+            </div>
+            <h1 class="coloured-background">Components</h1>
+            <h2>Buttons</h2>
+            <a name="buttons"></a>
+              <button class="demo-button">Button</button>
+              <button disabled>Disabled button</button>
+            <h2>Avatars</h2>
+            <a name="avatars"></a>
+            <div class="avatar">
+              Placeholder
+            </div>
+            <h2>Cards</h2>
+            <a name="cards"></a>
+            <div class="example-card">
+              <div class="example-card-img">
+                Placeholder
+              </div>
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, 
+              consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt 
+              ut labore... 
+              </p>
+              <button>Button</button>
+            </div>
+            <h1 class="coloured-background">Images</h1>
+            <h2>Icons</h2>
+            <a name="icons"></a>
+            <div class="icon-container">
+              <img class="icon-img" src="../images/icons/email-48.png" alt="Email icon">
+              <img class="icon-img" src="../images/icons/facebook-48.png" alt="Facebook icon">
+              <img class="icon-img" src="../images/icons/instagram-48.png" alt="Instagram icon">
+              <img class="icon-img" src="../images/icons/linkedin-3-48.png" alt="LinkedIn">
+              <img class="icon-img" src="../images/icons/twitter-48.png" alt="Twitter icon">
+            </div>
+          </div>
+          <footer class=design-footer>
+              <p>John Smith &copy 2020 - <a href="#">Design System</a>
+            </footer>
+    </div>
   </body>
 </html>
