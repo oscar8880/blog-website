@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" />
-    <link type="text/css" rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <title>My Blog Site</title>
   </head>
   <body>
@@ -55,7 +55,7 @@
             <h5>Heading 5</h5>
             <h6>Heading 6</h6>
             <p>The base type is 16px over lineheight of 25px</p>
-            <a id="demo-a">Anchor</a>
+            <a id="demo-a" href="#">Anchor</a>
             <p><em>Emphasis</em></p>
             <p><strong>Strong</strong></p>
             <p><small>Small</small></p>
@@ -106,9 +106,16 @@
               <img class="icon-img" src="../images/icons/linkedin-3-48.png" alt="LinkedIn">
               <img class="icon-img" src="../images/icons/twitter-48.png" alt="Twitter icon">
             </div>
+            <div class="centered">
+                <a href="../index.html">
+                  <button class="return-button">
+                    Return home
+                  </button>
+                </a>
+            </div>
           </div>
           <footer class=design-footer>
-              <p>John Smith &copy 2020 - <a href="#">Design System</a>
+              <p>John Smith &copy 2020 - <a class="footer-link" href="#">Design System</a>
             </footer>
     </div>
   </body>
