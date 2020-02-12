@@ -28,7 +28,9 @@
 .blog-header img{
   display: block;
   width: 70%;
+  max-width: 350px;
   height: 70%;
+  max-height: 350px;
   margin: 50px auto;
   border-radius: 50%;
 }
@@ -101,9 +103,8 @@
 .share-item {
   display: flex;
   flex-flow: row;
-  width: 65px;
   align-items: center;
-  margin: 10px 20px;
+  margin: 10px 10px;
   cursor: pointer;
   font-weight: 700;
 }
